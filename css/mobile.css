@@ -1,0 +1,10 @@
+.sv-selx{margin-left:auto;border:1px solid rgba(255,255,255,.45);background:transparent;color:inherit;border-radius:6px;padding:1px 9px;cursor:pointer;font-size:15px;line-height:1.25;}
+@media(max-width:640px){
+ html body nav{padding:6px 8px !important;gap:4px !important;}
+ html body nav ul{flex-wrap:nowrap !important;overflow-x:auto;justify-content:flex-start !important;max-width:100%;gap:4px !important;padding:4px !important;row-gap:0 !important;-webkit-overflow-scrolling:touch;scrollbar-width:none;}
+ html body nav ul::-webkit-scrollbar{display:none;}
+ html body nav a{padding:7px 12px !important;font-size:12px !important;}
+ html body .nav-lang-theme-wrap{margin-top:0 !important;}
+ #geneSeqViewCard .sv-selbadge.sv-fixed{position:fixed !important;left:8px !important;right:8px !important;top:auto !important;bottom:10px !important;transform:none !important;max-width:none;flex-wrap:wrap;white-space:normal;z-index:1200;box-shadow:0 4px 18px rgba(15,36,82,0.28);}
+ #geneSeqViewCard .sv-selbadge.sv-fixed .sv-selinfo{flex:1 1 100%;}
+}
